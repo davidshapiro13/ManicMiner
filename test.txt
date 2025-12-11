@@ -1,0 +1,30 @@
+set()
+{X: 1, Y: 3, type: 1}
+{X: 1, Y: 2, type: 3, X: 0, Y: 2, type: 0, X: 1, Y: 3, type: 1}
+{X: 1, Y: 2, type: 3, X: 0, Y: 2, type: 0, X: 1, Y: 3, type: 1}
+{X: 1, Y: 2, type: 3, X: 0, Y: 2, type: 0, X: 1, Y: 3, type: 1}
+{X: 3, Y: 3, type: 0, X: 2, Y: 3, type: 0, X: 1, Y: 2, type: 3, X: 0, Y: 2, type: 0, X: 1, Y: 3, type: 1}
+{X: 1, Y: 1, type: 0, X: 1, Y: 2, type: 3, X: 0, Y: 1, type: 0, X: 0, Y: 2, type: 0, X: 1, Y: 3, type: 1}
+{X: 1, Y: 1, type: 0, X: 1, Y: 2, type: 3, X: 0, Y: 1, type: 0, X: 0, Y: 2, type: 0, X: 1, Y: 3, type: 1}
+{X: 2, Y: 0, type: 0, X: 1, Y: 1, type: 0, X: 1, Y: 2, type: 3, X: 0, Y: 1, type: 0, X: 2, Y: 1, type: 3, X: 0, Y: 2, type: 0, X: 1, Y: 3, type: 1}
+{X: 2, Y: 0, type: 0, X: 1, Y: 1, type: 0, X: 1, Y: 2, type: 3, X: 0, Y: 1, type: 0, X: 2, Y: 1, type: 3, X: 0, Y: 2, type: 0, X: 1, Y: 3, type: 1}
+{X: 1, Y: 1, type: 0, X: 1, Y: 2, type: 3, X: 0, Y: 1, type: 0, X: 0, Y: 2, type: 0, X: 1, Y: 3, type: 1}
+{X: 1, Y: 1, type: 0, X: 1, Y: 0, type: 0, X: 1, Y: 2, type: 3, X: 0, Y: 1, type: 0, X: 0, Y: 0, type: 0, X: 0, Y: 2, type: 0, X: 1, Y: 3, type: 1}
+{X: 1, Y: 1, type: 0, X: 2, Y: 2, type: 0, X: 2, Y: 3, type: 0, X: 2, Y: 1, type: 3, X: 0, Y: 0, type: 0, X: 0, Y: 2, type: 0, X: 2, Y: 0, type: 0, X: 3, Y: 3, type: 0, X: 1, Y: 0, type: 0, X: 1, Y: 2, type: 3, X: 0, Y: 1, type: 0, X: 1, Y: 3, type: 1}
+{X: 1, Y: 1, type: 0, X: 2, Y: 2, type: 0, X: 2, Y: 3, type: 0, X: 2, Y: 1, type: 3, X: 0, Y: 0, type: 0, X: 0, Y: 2, type: 0, X: 2, Y: 0, type: 0, X: 3, Y: 3, type: 0, X: 1, Y: 0, type: 0, X: 3, Y: 1, type: 0, X: 1, Y: 2, type: 3, X: 0, Y: 1, type: 0, X: 1, Y: 3, type: 1}
+{X: 3, Y: 3, type: 0, X: 2, Y: 2, type: 0, X: 1, Y: 3, type: 1, X: 1, Y: 2, type: 3, X: 3, Y: 2, type: 4, X: 0, Y: 2, type: 0, X: 2, Y: 3, type: 0}
+Policy
+X:  1 , Y:  1 , Action:  Go Up
+X:  2 , Y:  1 , Action:  Go Left
+X:  3 , Y:  1 , Action:  Go Right
+X:  1 , Y:  2 , Action:  Go Up
+X:  2 , Y:  2 , Action:  Go Up
+X:  3 , Y:  2 , Action:  Go Up
+X:  4 , Y:  2 , Action:  Go Up
+X:  1 , Y:  3 , Action:  Go Up
+X:  2 , Y:  3 , Action:  Go Up
+X:  3 , Y:  3 , Action:  Go Down
+X:  4 , Y:  3 , Action:  Go Down
+X:  2 , Y:  4 , Action:  Go Right
+X:  3 , Y:  4 , Action:  Go Right
+X:  4 , Y:  4 , Action:  Go Down
