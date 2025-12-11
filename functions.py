@@ -87,6 +87,7 @@ def closure(state, policy, States):
     unexplored= {state}
     explored = set()
     accessible_states = set()
+
     while unexplored != set():
         curr_state = unexplored.pop()
         explored.add(curr_state)
@@ -96,9 +97,11 @@ def closure(state, policy, States):
         if curr_state in policy.keys():
             action = policy[curr_state]
             new_states = successor_func(curr_state, action, States)
+
             for new_state in new_states.keys():
                 if new_state not in explored:
                     unexplored.add(new_state)
+                    
     return accessible_states
 
 #Translation between action and its name

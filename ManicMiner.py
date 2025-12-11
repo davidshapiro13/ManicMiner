@@ -23,6 +23,8 @@ goal_state = States[0, 3]
 start_state = States[3, 1]
 actions = {up_action, down_action, left_action, right_action}
 discount = 1 #Not used
+
+#MDP DEFINED
 MDP = (States, actions, successor_func, cost, discount)
 
 initial_vals = np.zeros((4, 4))
@@ -76,6 +78,8 @@ def AOStar(States, actions, successor_func, discount, initial_state, initial_val
         for action in actions:
             new_states = successor_func(state, action, States).keys()
             for new_state in new_states:
+                
+                #State has not been seen before
                 if new_state not in fringe and new_state not in interior:
                     fringe.add(new_state)
                     values[new_state.y, new_state.x] = initial_values[new_state.y, new_state.x]
